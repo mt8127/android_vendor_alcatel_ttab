@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
     $(LOCAL_PATH)/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     $(LOCAL_PATH)/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
-    $(LOCAL_PATH)/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     $(LOCAL_PATH)/proprietary/lib/libcameraanalyzer.so:system/lib/libcameraanalyzer.so \
     $(LOCAL_PATH)/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     $(LOCAL_PATH)/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
