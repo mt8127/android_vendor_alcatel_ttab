@@ -107,6 +107,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
     $(LOCAL_PATH)/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
