@@ -18,4 +18,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter ttab,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdpframework
+LOCAL_MODULE_OWNER := alcatel
+LOCAL_SRC_FILES := proprietary/lib/libdpframework.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 endif

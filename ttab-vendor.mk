@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/alcatel/ttab/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/alcatel/ttab/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
-    vendor/alcatel/ttab/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/alcatel/ttab/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/alcatel/ttab/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/alcatel/ttab/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
@@ -208,3 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/alcatel/ttab/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/alcatel/ttab/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+
+PRODUCT_PACKAGES += \
+    libdpframework
