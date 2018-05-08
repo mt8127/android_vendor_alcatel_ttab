@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/alcatel/ttab/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/alcatel/ttab/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
-    vendor/alcatel/ttab/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/alcatel/ttab/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/alcatel/ttab/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/alcatel/ttab/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
@@ -201,9 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/alcatel/ttab/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/alcatel/ttab/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/alcatel/ttab/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
