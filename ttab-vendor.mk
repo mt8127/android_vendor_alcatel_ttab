@@ -19,25 +19,15 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/alcatel/ttab/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/alcatel/ttab/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
-    vendor/alcatel/ttab/proprietary/bin/aee:system/bin/aee \
-    vendor/alcatel/ttab/proprietary/bin/aee_archive:system/bin/aee_archive \
-    vendor/alcatel/ttab/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
-    vendor/alcatel/ttab/proprietary/bin/aee_dumpstate:system/bin/aee_dumpstate \
     vendor/alcatel/ttab/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/alcatel/ttab/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/alcatel/ttab/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
-    vendor/alcatel/ttab/proprietary/bin/kisd:system/bin/kisd \
-    vendor/alcatel/ttab/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
-    vendor/alcatel/ttab/proprietary/bin/meta_tst:system/bin/meta_tst \
-    vendor/alcatel/ttab/proprietary/bin/mmp:system/bin/mmp \
+    vendor/alcatel/ttab/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/alcatel/ttab/proprietary/bin/msensord:system/bin/msensord \
     vendor/alcatel/ttab/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/alcatel/ttab/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/alcatel/ttab/proprietary/bin/pq:system/bin/pq \
     vendor/alcatel/ttab/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/alcatel/ttab/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
-    vendor/alcatel/ttab/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-    vendor/alcatel/ttab/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/alcatel/ttab/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
     vendor/alcatel/ttab/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/alcatel/ttab/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -74,20 +64,12 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/alcatel/ttab/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/alcatel/ttab/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/audio.primary.mt8127.so:system/lib/hw/audio.primary.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
     vendor/alcatel/ttab/proprietary/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/sensors.mt8127.so:system/lib/hw/sensors.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     vendor/alcatel/ttab/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/alcatel/ttab/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/alcatel/ttab/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
