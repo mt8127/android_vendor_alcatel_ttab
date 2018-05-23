@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/alcatel/ttab/proprietary/lib/hw/audio.primary.mt8127.so:system/lib/hw/audio.primary.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
+    vendor/alcatel/ttab/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
@@ -147,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
     vendor/alcatel/ttab/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/alcatel/ttab/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
+    vendor/alcatel/ttab/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/alcatel/ttab/proprietary/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
     vendor/alcatel/ttab/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/alcatel/ttab/proprietary/lib/libmpo.so:system/lib/libmpo.so \
@@ -184,7 +186,8 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/alcatel/ttab/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/alcatel/ttab/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/alcatel/ttab/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/alcatel/ttab/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
     libdpframework
