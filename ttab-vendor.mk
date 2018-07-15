@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/alcatel/ttab/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/alcatel/ttab/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
-    vendor/alcatel/ttab/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/alcatel/ttab/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/alcatel/ttab/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
     vendor/alcatel/ttab/proprietary/etc/wide-dhcpv6/dhcp6c.script:system/etc/wide-dhcpv6/dhcp6c.script \
@@ -77,20 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/alcatel/ttab/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/alcatel/ttab/proprietary/lib/libMali.so:system/lib/libMali.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
-    vendor/alcatel/ttab/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
     vendor/alcatel/ttab/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/alcatel/ttab/proprietary/lib/lib_uree_mtk_crypto.so:system/lib/lib_uree_mtk_crypto.so \
     vendor/alcatel/ttab/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
@@ -149,8 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/alcatel/ttab/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/alcatel/ttab/proprietary/lib/libmnl.so:system/lib/libmnl.so \
-    vendor/alcatel/ttab/proprietary/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
-    vendor/alcatel/ttab/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/alcatel/ttab/proprietary/lib/libmpo.so:system/lib/libmpo.so \
     vendor/alcatel/ttab/proprietary/lib/libmpodecoder.so:system/lib/libmpodecoder.so \
     vendor/alcatel/ttab/proprietary/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
@@ -176,13 +159,25 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/alcatel/ttab/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/alcatel/ttab/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
-    vendor/alcatel/ttab/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/alcatel/ttab/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     vendor/alcatel/ttab/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
-    vendor/alcatel/ttab/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
-    vendor/alcatel/ttab/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
-    vendor/alcatel/ttab/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libClearMotionFW.so:system/vendor/lib/libClearMotionFW.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:system/vendor/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libMtkOmxCore.so:system/vendor/lib/libMtkOmxCore.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libMtkOmxVdecEx.so:system/vendor/lib/libMtkOmxVdecEx.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libMtkOmxVenc.so:system/vendor/lib/libMtkOmxVenc.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libmp4enc_sa.ca7.so:system/vendor/lib/libmp4enc_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libmp4enc_xa.ca7.so:system/vendor/lib/libmp4enc_xa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/librrc.so:system/vendor/lib/librrc.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvcodec_oal.so:system/vendor/lib/libvcodec_oal.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvcodecdrv.so:system/vendor/lib/libvcodecdrv.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
+    vendor/alcatel/ttab/proprietary/vendor/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/alcatel/ttab/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/alcatel/ttab/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
