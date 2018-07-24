@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/sensors.mt8127.so:system/lib/hw/sensors.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/alcatel/ttab/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
