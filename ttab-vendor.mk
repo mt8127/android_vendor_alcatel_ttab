@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/sensors.mt8127.so:system/lib/hw/sensors.mt8127.so \
+    vendor/alcatel/ttab/proprietary/lib/libsensors.mt8127.so:system/lib/libsensors.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/alcatel/ttab/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/alcatel/ttab/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/alcatel/ttab/proprietary/lib/libstagefright_memutil.so:system/lib/libstagefright_memutil.so \
     vendor/alcatel/ttab/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/alcatel/ttab/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/alcatel/ttab/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/alcatel/ttab/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/alcatel/ttab/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
