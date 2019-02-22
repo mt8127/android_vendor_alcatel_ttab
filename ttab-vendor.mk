@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/alcatel/ttab/proprietary/lib/hw/audio.primary.mt8127.so:system/lib/hw/audio.primary.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
-    vendor/alcatel/ttab/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/alcatel/ttab/proprietary/lib/hw/gps.mt8127.so:system/lib/hw/gps.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/libsensors.mt8127.so:system/lib/libsensors.mt8127.so \
