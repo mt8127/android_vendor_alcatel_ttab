@@ -60,9 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/etc/wide-dhcpv6/dhcp6cctlkey:system/etc/wide-dhcpv6/dhcp6cctlkey \
     vendor/alcatel/ttab/proprietary/etc/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
     vendor/alcatel/ttab/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/alcatel/ttab/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/alcatel/ttab/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/alcatel/ttab/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/alcatel/ttab/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/alcatel/ttab/proprietary/lib/hw/audio.primary.mt8127.so:system/lib/hw/audio.primary.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
     vendor/alcatel/ttab/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -74,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
     vendor/alcatel/ttab/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/alcatel/ttab/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
-    vendor/alcatel/ttab/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/alcatel/ttab/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/alcatel/ttab/proprietary/lib/lib_uree_mtk_crypto.so:system/lib/lib_uree_mtk_crypto.so \
     vendor/alcatel/ttab/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
@@ -120,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/alcatel/ttab/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/alcatel/ttab/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+    vendor/alcatel/ttab/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/alcatel/ttab/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/alcatel/ttab/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/alcatel/ttab/proprietary/lib/libhwm.so:system/lib/libhwm.so \
