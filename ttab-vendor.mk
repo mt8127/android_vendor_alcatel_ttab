@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/alcatel/ttab/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
     vendor/alcatel/ttab/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/alcatel/ttab/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
-    vendor/alcatel/ttab/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/alcatel/ttab/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/alcatel/ttab/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/alcatel/ttab/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
